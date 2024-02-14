@@ -41,6 +41,11 @@
         <artifactId>lombok</artifactId>
         <optional>true</optional>
     </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>timer-aop-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
             <groupId>com.github.javafaker</groupId>

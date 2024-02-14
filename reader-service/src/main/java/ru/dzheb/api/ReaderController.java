@@ -1,6 +1,7 @@
 package ru.dzheb.api;
 
 import com.github.javafaker.Faker;
+import org.example.gb.timing.Timer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/reader")
+@Timer
 public class ReaderController {
     private final Faker faker;
     private final List<Reader> readers;

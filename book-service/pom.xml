@@ -41,6 +41,11 @@
             <artifactId>javafaker</artifactId>
             <version>0.15</version>
         </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>timer-aop-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 </project>

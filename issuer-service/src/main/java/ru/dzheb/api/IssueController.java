@@ -1,6 +1,7 @@
 package ru.dzheb.api;
 
 import com.github.javafaker.Faker;
+import org.example.gb.timing.Timer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +13,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api/issue")
+@Timer
 public class IssueController {
 
     private final Faker faker;
